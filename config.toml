@@ -1,4 +1,27 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = ''
+languageCode = 'de-ch'
 theme = 'SimpleIntro'
+title = 'IO-it.ch'
+publishDir = "public"
+
+
+[params]
+    mainbg = "https://picsum.photos/1920/1080"
+    name = "John Doe"
+    mainTitle = "Simple-intro"
+    mainText = "Just simple intro theme for hugo"
+
+[menus]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "#about"
+    [[menu.main]]
+        identifier = "skills"
+        name = "Skills"
+        url = "#skills"
+    [[menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "#projects"
+
